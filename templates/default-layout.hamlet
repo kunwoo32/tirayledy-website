@@ -1,24 +1,17 @@
 
 <!-- Static navbar -->
-<nav .navbar.navbar-default.navbar-static-top>
-    <div .container>
-        <div .navbar-header>
-            <button type="button" .navbar-toggle.collapsed data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
 
-        <div #navbar .collapse.navbar-collapse>
-            <ul .nav.navbar-nav>
-                $forall MenuItem label route _ <- navbarLeftFilteredMenuItems
-                    <li :Just route == mcurrentRoute:.active>
-                        <a href="@{route}">#{label}
+<nav class="navbar sticky-top bg-light">
+    <div class="container">
+        <img class="navbar-brand" src=@{StaticR images_blueLogo_png} alt="Tiray Ledy logo"/>
+        <a class="py-2 d-none d-md-inline-block" href="#">Tour
+        <a class="py-2 d-none d-md-inline-block" href="#">Product
+        <a class="py-2 d-none d-md-inline-block" href="#">Features
+        <a class="py-2 d-none d-md-inline-block" href="#">Enterprise
+        <a class="py-2 d-none d-md-inline-block" href="#">Support
+        <a class="py-2 d-none d-md-inline-block" href="#">Pricing
+        <a class="py-2 d-none d-md-inline-block" href="#">Cart
 
-            <ul .nav.navbar-nav.navbar-right>
-                $forall MenuItem label route _ <- navbarRightFilteredMenuItems
-                    <li :Just route == mcurrentRoute:.active>
-                        <a href="@{route}">#{label}
 
 <!-- Page Contents -->
 
@@ -44,7 +37,20 @@ $else
                 ^{widget}
 
 <!-- Footer -->
-<footer .footer>
-    <div .container>
-        <p .text-muted>
-            #{appCopyright $ appSettings master}
+<div style="background-color: #0b5c95;">
+    <div class="container">
+        <div class="row text-center text-light p-4">
+            <div class="col-md">
+                <h4>FAST FREE SHIPPING</h4>
+                <p>Always fast delivery. Free shipping on all orders of $25 or more.</p>
+            <div class="col-md">
+                <h4>GREAT GEAR FOR LESS</h4>
+                <p>It's our goal to make great gear at reasonable prices - to get more people outdoors.</p>
+
+<div class="footer text-light">
+    <div class="container">
+        Tiray Ledy ©2019
+        <br>
+        Email: 18820189311@163.com
+        <br>
+        Phone: (+86) 188-2018-9311

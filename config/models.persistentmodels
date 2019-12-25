@@ -16,3 +16,12 @@ Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived
     userId UserId Maybe
     deriving Eq
     deriving Show
+
+Product
+    Id Text
+    name Text
+    bigPicture Text
+    smallPicture Text
+    price Text Maybe
+    description Text Maybe
+    deriving Show

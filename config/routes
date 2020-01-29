@@ -7,7 +7,9 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-images/#Text/ DynamicImageR GET
+images/#Text DynamicImageR GET
+
+product/#ProductId ProductR GET
 
 / HomeR GET
 

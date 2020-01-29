@@ -1,0 +1,9 @@
+.flag-img {
+    height: 50px;
+    width: auto;
+}
+
+.product-description {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}

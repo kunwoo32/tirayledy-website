@@ -1,0 +1,20 @@
+<div class="text-center" style="margin:2rem auto; margin-top: 5rem; padding: 0 2rem;">
+    <div style="font-size: 2rem;">
+        Frequently Asked Questions
+
+<div class="mx-auto faq-points">
+    <div class="faq-topic">
+        <div class="faq-question">
+            Why don't you ship to my country?
+        <div>
+            We are a young company and at the moment we are unfortunately only able to accept orders from within the European Union. We are working towards making everyone able to easily order from us. However, if you are residing in a country where we are not available yet and really want our products, we would be happy if you contacted us. Please refer to our <a href=@{ContactR}>contact page</a> for our contact information.
+    <div class="faq-topic">
+        <div class="faq-question">
+            How long will it take for my items to arrive?
+        <div>
+            We use fullfilled by amazon to ship our products. Customers can choose between one day shipping, two day shipping, and standard shipping. In case we run out of stock in our EU warehouse, we occasionally ship orders directly from china. our delivery times from china are usually around two weeks.
+    <div class="faq-topic">
+        <div class="faq-question">
+            How can I return an item/order?
+        <div>
+            Orders can be returned through Amazon and follows Amazon's rules for item returns.

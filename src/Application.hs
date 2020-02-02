@@ -43,6 +43,9 @@ import System.Log.FastLogger                (defaultBufSize, newStdoutLoggerSet,
 import Handler.Common
 import Handler.Home
 import Handler.Comment
+import Handler.Contact
+import Handler.Faq
+import Handler.Privacy
 import Handler.Profile
 import Handler.DynamicImages
 import Handler.Product

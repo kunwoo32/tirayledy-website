@@ -168,6 +168,9 @@ instance Yesod App where
     isAuthorized (StaticR _) _ = return Authorized
     isAuthorized (DynamicImageR _) _ = return Authorized
     isAuthorized (ProductR _) _ = return Authorized
+    isAuthorized ContactR _ = return Authorized
+    isAuthorized FaqR _ = return Authorized
+    isAuthorized PrivacyR _ = return Authorized
 
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function

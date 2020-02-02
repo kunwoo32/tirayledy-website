@@ -3,8 +3,24 @@
     width: auto;
 }
 
+@media (min-width:992px) {
+    .nav-item {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #navbarSupportedContent {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 .footer {
     padding-top: 2rem;
     padding-bottom: 10rem;
     background-color: #4c5358;
+}
+
+.footer a {
+    color: #f8f9fa;
 }

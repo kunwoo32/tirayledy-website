@@ -1,10 +1,20 @@
 
 <!-- Static navbar -->
 
-<nav class="navbar sticky-top bg-light">
+<nav class="navbar navbar-light navbar-expand-lg sticky-top bg-light">
     <div class="container">
         <a href=@{HomeR}>
             <img class="navbar-brand" src=@{StaticR images_blueLogo_png} alt="Tiray Ledy logo"/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+        <div #navbarSupportedContent .collapse.navbar-collapse>
+            <ul .nav.navbar-nav>
+                <li .nav-item>
+                    <a .nav-link href="@{HomeR}#products">Products
+                <li .nav-item>
+                    <a .nav-link href=@{FaqR}>FAQ
+                <li .nav-item>
+                    <a .nav-link href=@{ContactR}>Contact Us
 
 
 <!-- Page Contents -->
@@ -29,13 +39,22 @@ $else
                 <h4>GREAT GEAR FOR LESS</h4>
                 <p>It's our goal to make great gear at reasonable prices - to get more people outdoors.</p>
 
-<div class="footer text-light">
+<div class="footer" style="color:#e0e0e0">
     <div class="container">
-        Tiray Ledy ©2020
-        <br>
-        Email: 18820189311@163.com
-        <br>
-        Phone: (+86) 188-2018-9311
-        <div class="my-3">
-            <a href="https://facebook.com/tirayledy">
-                <img src=@{StaticR images_facebookLogo_png} style="width: 32px; height: 32px;">
+        <div class="row">
+            <div class="col-md-6">
+                Tiray Ledy ©2020
+                <br>
+                Email: 18820189311@163.com
+                <br>
+                Phone: (+86) 188-2018-9311
+                <div class="my-3">
+                    <a href="https://facebook.com/tirayledy">
+                        <img src=@{StaticR images_facebookLogo_png} style="width: 32px; height: 32px;">
+            <div class="col-md-6">
+                <div>
+                    <a href=@{FaqR}>FAQ
+                <div>
+                    <a href=@{ContactR}>Contact Us
+                <div>
+                    <a href=@{PrivacyR}>Privacy Policy

@@ -1,0 +1,36 @@
+.privacy-title {
+    font-size: 1rem;
+}
+
+.privacy-topic {
+    margin: 1rem 0;
+}
+
+.privacy-header {
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.privacy-body {
+    font-size: 0.5rem;
+}
+
+@media (min-width: 576px) {
+
+    .privacy-title {
+        font-size: 2rem;
+    }
+
+    .privacy-topic {
+        margin: 1rem 0;
+    }
+
+    .privacy-header {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .privacy-body {
+        font-size: 1rem;
+    }
+}

@@ -4,7 +4,7 @@
         <p class="banner-title">YOUR HOME IS SACRED
         <p class="banner-subtitle">Why not light it with a little jazz?
 
-<div class="text-center" style="margin:2rem auto; padding: 0 2rem; font-size:2rem">
+<div id="products" class="text-center" style="margin:2rem auto; padding: 0 2rem; font-size:2rem">
     BEST SELLING PRODUCTS
 
 <div class="container py-4">

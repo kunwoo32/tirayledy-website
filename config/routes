@@ -11,6 +11,12 @@ images/#Text DynamicImageR GET
 
 product/#ProductId ProductR GET
 
+contact ContactR GET
+
+faq FaqR GET
+
+privacy PrivacyR GET
+
 / HomeR GET
 
 /comments CommentR POST

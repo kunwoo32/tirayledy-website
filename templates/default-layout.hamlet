@@ -46,8 +46,6 @@ $else
                 Tiray Ledy ©2020
                 <br>
                 Email: support@tiray-ledy.com
-                <br>
-                Phone: (+86) 188-2018-9311
                 <div class="my-3">
                     <a href="https://facebook.com/tirayledy">
                         <img src=@{StaticR images_facebookLogo_png} style="width: 32px; height: 32px;">

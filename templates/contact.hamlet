@@ -6,7 +6,7 @@
 
 
 <div .mx-auto.text-center style="width:300px; margin-bottom: 5rem;">
-    <a href="mailto:18820189311@163.com">
+    <a href="mailto:support@tiray-ledy.com">
         <img src=@{StaticR images_emailIcon_svg} style="width:150px; height: auto;">
         <div style="margin:1rem 0;">
             Email: support@tiray-ledy.com
